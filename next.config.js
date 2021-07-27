@@ -1,6 +1,6 @@
 const securityHeaders = [{
   key: 'Content-Security-Policy',
-  value: "default-src 'self' checkout.com *.checkout.com"
+  value: "default-src 'self'; font-src *"
 }]
 
 module.exports = {
